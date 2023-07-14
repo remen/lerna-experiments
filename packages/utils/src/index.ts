@@ -1,7 +1,6 @@
-'use strict';
+import {Request, Response, NextFunction} from 'express';
 
-module.exports = utils;
-
-function utils() {
-  return 'Hello from utils';
+export const LOGGER_MIDDLEWARE = (request: Request, response: Response, next: NextFunction) => {
+  console.log(`${request.method} ${request.url}`);
+  next();
 }

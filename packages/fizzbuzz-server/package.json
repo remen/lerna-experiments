@@ -1,0 +1,22 @@
+{
+  "name": "@fizzbuzz/fizzbuzz-server",
+  "version": "0.0.0",
+  "main": "dist/fizzbuzz-server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon dist/fizzbuzz-server.js"
+  },
+  "nx": {
+    "targets": {
+      "start": {
+        "dependsOn": [
+          "build"
+        ]
+      }
+    }
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2"
+  }
+}
