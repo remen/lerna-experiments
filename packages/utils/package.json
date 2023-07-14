@@ -1,0 +1,17 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Petter Remen <petter.remen@orbiapp.io>",
+  "homepage": "https://github.com/remen/lerna-experiments#readme",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remen/lerna-experiments.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./__tests__/utils.test.js"
+  }
+}
