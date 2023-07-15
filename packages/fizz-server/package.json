@@ -4,7 +4,8 @@
   "main": "dist/fizz-server.js",
   "scripts": {
     "build": "tsc",
-    "start": "nodemon dist/fizz-server.js"
+    "start": "node dist/fizz-server.js",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@fizzbuzz/utils": "^0.0.0",

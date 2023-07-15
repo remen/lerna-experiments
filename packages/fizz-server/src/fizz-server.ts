@@ -1,4 +1,4 @@
-import * as express from 'express';
+import express from 'express';
 import {LOGGER_MIDDLEWARE} from "@fizzbuzz/utils";
 
 const PORT = 1234;

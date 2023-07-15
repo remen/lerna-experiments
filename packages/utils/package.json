@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "@types/express": "^4.17.17"
